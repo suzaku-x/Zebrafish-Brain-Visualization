@@ -15,11 +15,11 @@ This is a pipeline for 2D zebrafish brain visualization.
 
 ## Description
 This easy-to-use pipeline has three functions.
-1. Show the range of 2p image scanning.\
+1. Show the range of 2p image scanning.
 <img alt="badge" height="400" src="5.jpg" width="400"/>
-2. Show different neurons in different brain areas.\
+2. Show different neurons in different brain areas.
 <img alt="badge" height="400" src="6.jpg" width="400"/>
-3. Add masks to the atlas and show neurons of interest.\
+3. Add masks to the atlas and show neurons of interest.
 <img alt="badge" height="400" src="1.jpg" width="400"/>
 
 ## Table of Contents
@@ -60,8 +60,8 @@ import fileinput
 
 ## Function1
 ### Show the range of 2p image scanning
-For each dataset, we have n fish (n=6 in our example).\
-For each fish, we have 9 planes.\
+For each dataset, we have n fish (n=6 in our example).
+For each fish, we have 9 planes.
 ### 1. Merge the coordinates of planes in all fish.
 Modify your path in [mergecsv.py](mergecsv.py).
 ```python
